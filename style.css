@@ -291,8 +291,8 @@ h1{
 
 .edu-image img {
   width: 100%;
-  max-width: 220px;
-  max-height: 160px;
+  max-width: 280px;
+  max-height: 200px;
   object-fit: contain;
   opacity: 0.9;
 }
