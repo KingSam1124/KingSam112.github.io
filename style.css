@@ -323,8 +323,7 @@ h1{
 .exp-image {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  padding-top: 8px;
+  align-items: center;
 }
 
 .exp-image img {
