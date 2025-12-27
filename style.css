@@ -312,3 +312,38 @@ h1{
   margin-top: 28px;   /* push dropdown down */
 }
 
+/* Experience cards: text left, logo right */
+.exp-card {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+  align-items: start; /* prevents logo shifting */
+}
+
+.exp-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 8px;
+}
+
+.exp-image img {
+  width: 100%;
+  max-width: 240px;
+  max-height: 160px;
+  object-fit: contain;
+  opacity: 0.9;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .exp-card {
+    grid-template-columns: 1fr;
+  }
+
+  .exp-image {
+    margin-top: 12px;
+  }
+}
+
+
