@@ -308,8 +308,7 @@ h1{
   }
 }
 
-/* Coursework dropdown spacing */
 .coursework {
-  margin-top: 16px;
+  margin-top: 28px;   /* push dropdown down */
 }
 
