@@ -317,7 +317,7 @@ h1{
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 32px;
-  align-items: start; /* prevents logo shifting */
+  align-items: center; /* prevents logo shifting */
 }
 
 .exp-image {
