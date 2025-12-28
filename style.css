@@ -400,4 +400,18 @@ main.container h2 {
   margin-bottom: 32px;
 }
 
+.extra-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.extra-image img {
+  width: 100%;
+  max-width: 240px;
+  max-height: 160px;
+  object-fit: contain;
+  opacity: 0.9;
+}
+
 
