@@ -408,8 +408,8 @@ main.container h2 {
 
 .extra-image img {
   width: 100%;
-  max-width: 240px;
-  max-height: 160px;
+  max-width: 200px;
+  max-height: 100px;
   object-fit: contain;
   opacity: 0.9;
 }
