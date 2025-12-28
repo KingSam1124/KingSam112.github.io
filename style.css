@@ -401,7 +401,7 @@ h1{
 
 /* Logo sizing */
 .extra-image img {
-  max-width: 220px;
+  max-width: 240px;
   max-height: 160px;
   object-fit: contain;
   opacity: 0.9;
