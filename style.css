@@ -483,14 +483,15 @@ h1{
   gap: 24px;
 }
 
+/* Interest card */
 .interest-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 24px;
-  min-height: 160px; /* makes all cards same height */
+  min-height: 160px;          /* forces equal card height */
+  gap: 24px;
 }
-
 
 /* Interest title */
 .interest-card h2 {
@@ -499,29 +500,25 @@ h1{
   margin: 0;
 }
 
-/* Interest image */
-.interest-card img {
-  width: 110px;      /* pick a size you like */
-  height: 110px;     /* same height = consistent */
-  object-fit: contain;
-  opacity: 0.9;
-  flex-shrink: 0;
-  display: block;
-}
-
+/* Fixed-size icon wrapper (THIS is the key fix) */
 .interest-icon {
+  flex: 0 0 120px;            /* locks width */
   width: 120px;
-  height: 120px;
+  height: 120px;              /* locks height */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+/* Icon itself */
 .interest-icon img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
   object-fit: contain;
   opacity: 0.9;
+  display: block;
 }
 
 /* Mobile */
