@@ -515,3 +515,8 @@ h1{
     grid-template-columns: 1fr;
   }
 }
+
+.scale-up {
+  transform: scale(1.25);
+  transform-origin: center;
+}
