@@ -476,5 +476,39 @@ h1{
   transform: translateY(-1px);
 }
 
+/* Interests cards */
+.interest-card {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.interest-text h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.interest-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.interest-image img {
+  width: 100%;
+  max-width: 220px;
+  max-height: 160px;
+  object-fit: contain;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .interest-card {
+    grid-template-columns: 1fr;
+  }
+}
 
 
