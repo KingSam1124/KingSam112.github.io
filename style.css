@@ -530,5 +530,3 @@ h1{
     grid-template-columns: 1fr;
   }
 }
-
-.icon-small { transform: scale(0.85); }
