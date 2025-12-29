@@ -476,35 +476,39 @@ h1{
   transform: translateY(-1px);
 }
 
+/* Interests grid */
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+/* Interest card */
 .interest-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
   padding: 24px;
-  min-height: 140px; /* optional: keeps cards same height */
 }
 
+/* Interest title */
 .interest-card h2 {
-  margin: 0;
   font-size: 1.6rem;
   font-weight: 700;
+  margin: 0;
 }
 
-/* fixed-size icon box */
-.interest-icon {
-  width: 110px;     /* tweak this */
-  height: 110px;    /* tweak this */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 0 0 110px;  /* prevents shrinking/stretching */
-}
-
-/* image fits inside the box */
-.interest-icon img {
-  width: 100%;
-  height: 100%;
+/* Interest image */
+.interest-card img {
+  max-width: 120px;
+  max-height: 100px;
   object-fit: contain;
-  display: block;
+  opacity: 0.9;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .interests-grid {
+    grid-template-columns: 1fr;
+  }
 }
