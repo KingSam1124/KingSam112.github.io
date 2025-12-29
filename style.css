@@ -370,10 +370,9 @@ h1{
 }
 
 .project-header {
-  display: flex;
-  justify-content: space-between;
+  display: inline-flex;   /* key change */
   align-items: center;
-  gap: 16px;
+  gap: 12px;              /* space between title and icon */
 }
 
 .project-header h3 {
