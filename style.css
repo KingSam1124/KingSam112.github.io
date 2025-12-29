@@ -350,7 +350,7 @@ h1{
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 32px;
-  align-items: start;
+  align-items: center;
   margin-bottom: 24px; /* consistent spacing between projects */
 }
 
