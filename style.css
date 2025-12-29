@@ -483,13 +483,14 @@ h1{
   gap: 24px;
 }
 
-/* Interest card */
 .interest-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 24px;
+  min-height: 160px; /* makes all cards same height */
 }
+
 
 /* Interest title */
 .interest-card h2 {
