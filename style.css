@@ -500,10 +500,12 @@ h1{
 
 /* Interest image */
 .interest-card img {
-  max-width: 120px;
-  max-height: 100px;
+  width: 110px;      /* pick a size you like */
+  height: 110px;     /* same height = consistent */
   object-fit: contain;
   opacity: 0.9;
+  flex-shrink: 0;
+  display: block;
 }
 
 /* Mobile */
