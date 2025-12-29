@@ -358,7 +358,6 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center; /* centers image vertically */
-  padding-top: 8px;
 }
 
 .project-image img {
