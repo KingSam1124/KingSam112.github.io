@@ -587,5 +587,5 @@ h1{
 }
 
 section:last-of-type {
-  padding-bottom: 40px; /* or even 24px */
+  padding-bottom: 24px; /* or even 24px */
 }
