@@ -585,3 +585,7 @@ h1{
     grid-template-columns: 1fr;
   }
 }
+
+section:last-of-type {
+  padding-bottom: 40px; /* or even 24px */
+}
