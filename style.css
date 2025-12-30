@@ -691,3 +691,29 @@ section:last-of-type {
   margin: 0 !important;
 }
 
+/* ===== HERO: align paragraph card bottom with headshot card + match text color ===== */
+
+/* Make the hero grid items stretch to the same row height */
+.hero-grid {
+  align-items: stretch;
+}
+
+/* Make the left column a vertical stack that can "push" the paragraph card down */
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Push the paragraph card to the bottom of the left column */
+.hero-paragraph {
+  margin-top: auto;
+  padding: 24px; /* optional, keeps it consistent with other cards */
+}
+
+/* Match paragraph text styling to your other card/body text */
+.hero-paragraph p {
+  margin: 0;
+  color: #4b5563; /* muted gray */
+  line-height: 1.6;
+}
