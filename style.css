@@ -676,3 +676,18 @@ section:last-of-type {
     grid-template-columns: 1fr;
   }
 }
+
+/* FORCE traits to be a 3x2 grid */
+.container .traits-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 24px !important;
+  margin-top: 32px !important;
+}
+
+/* Make sure cards don't have weird width rules */
+.container .traits-grid .trait-card {
+  width: auto !important;
+  margin: 0 !important;
+}
+
