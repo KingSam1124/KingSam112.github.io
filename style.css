@@ -141,8 +141,8 @@ h1{
 .hero-text .cta{ margin-bottom: 16px; }
 
 /* The paragraph card should sit under the buttons */
-.hero-paragraph{
-  margin-top: 0;
+.hero-paragraph {
+  margin-top: 18px;
 }
 
 /* RIGHT COLUMN CARD: remove padding that creates “bottom space” */
