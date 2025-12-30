@@ -206,6 +206,32 @@ h1{
   border-radius: 18px;    /* or remove if you want flush edges */
 }
 
+/* HERO layout: prevent the image card from stretching taller than the photo */
+.hero-grid{
+  align-items: start; /* key: don't stretch items to same height */
+}
+
+/* Make sure the right card hugs its content (the photo) */
+.hero-card{
+  align-self: start;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 18px; /* match your style */
+}
+
+/* Remove the mysterious extra space under images */
+.photo-wrap{
+  line-height: 0;
+}
+
+.photo{
+  display: block;
+  width: 100%;
+  height: auto;      /* image defines card height */
+  object-fit: cover; /* optional: keeps it looking clean if you set a height later */
+}
+
+
 
 .photo {
   display: block;
