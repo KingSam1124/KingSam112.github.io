@@ -303,6 +303,47 @@ h1{
   gap: 14px;
 }
 
+/* 1) Grid: make both columns share the same row height */
+.hero-grid{
+  align-items: stretch !important;   /* overrides any align-items:start */
+}
+
+/* 2) Right photo card should stretch to the row height */
+.hero-grid > .hero-card{
+  height: 100%;
+}
+
+/* 3) Make the photo fill the card height cleanly */
+.hero-card .photo-wrap{
+  height: 100%;
+  padding: 0;             /* remove the 16px that changes height math */
+  border-bottom: 0;       /* optional: remove divider */
+  line-height: 0;
+}
+
+.hero-card .photo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: auto;     /* IMPORTANT: overrides your 1/1 square rule */
+  border-radius: 0;       /* keep rounding on the card, not the img */
+}
+
+/* 4) Left side: equal vertical spacing across the full height */
+.hero-text{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* 5) Don’t let random margins ruin “equal spacing” */
+.hero-text .subhead,
+.hero-text .cta,
+.hero-paragraph{
+  margin: 0 !important;
+}
+
 /* ---------- SECTIONS ---------- */
 
 .section{
