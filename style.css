@@ -160,27 +160,25 @@ a{
 
 /* ------- Scroll Arrow -------- */ 
 
-.scroll-arrow{
+
+.scroll-arrow-wrap {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  margin: 16px auto 0;
-  border: 1px solid #e5e7eb;
-  border-radius: 999px;
-  background: #fff;
-  color: #111827;
+  margin: 8px 0 24px; /* space above and below */
+}
+
+.scroll-arrow {
+  font-size: 36px;
+  color: #9ca3af;        /* subtle gray */
   text-decoration: none;
-  font-size: 22px;
   line-height: 1;
+  transition: transform 0.15s ease, color 0.15s ease;
 }
 
-.scroll-arrow:hover{
-  background: #f9fafb;
+.scroll-arrow:hover {
+  transform: translateY(4px);
+  color: #6b7280;
 }
-
-
 
 
 /* ---------- SECTIONS ---------- */
