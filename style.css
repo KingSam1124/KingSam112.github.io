@@ -907,10 +907,9 @@ section:last-of-type {
   height: 100%;
 }
 
-/* Push the paragraph card to the bottom of the left column */
-.hero-paragraph {
-  margin-top: auto;
-  padding: 24px; /* optional, keeps it consistent with other cards */
+.hero-paragraph{
+  margin: 0;
+  padding: 24px; /* keep if you want */
 }
 
 /* Match paragraph text styling to your other card/body text */
