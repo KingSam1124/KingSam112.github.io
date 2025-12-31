@@ -167,11 +167,14 @@ a{
   margin: 8px 0 24px; /* space above and below */
 }
 
+
 .scroll-arrow {
-  font-size: 36px;
-  color: #9ca3af;        /* subtle gray */
+  font-size: 40px;          /* makes it bigger */
+  font-weight: 300;         /* thinner, cleaner */
+  letter-spacing: 6px;      /* makes it wider */
+  color: #9ca3af;           /* subtle gray */
   text-decoration: none;
-  line-height: 1;
+  display: inline-block;
   transition: transform 0.15s ease, color 0.15s ease;
 }
 
