@@ -698,6 +698,10 @@ section:last-of-type {
   line-height: 1.5;
 }
 
+#traits {
+  padding-top: 24px;
+}
+
 /* =========================
    RESPONSIVE BREAKPOINTS
    ========================= */
