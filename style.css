@@ -351,6 +351,9 @@ a{
   }
 }
 
+#contact {
+  border-bottom: none !important;
+}
 
 
 /* ---------- MOBILE ---------- */
