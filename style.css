@@ -882,7 +882,6 @@ section:last-of-type {
   margin: 0 0 10px;
   font-size: clamp(40px, 4vw, 56px);
   letter-spacing: 0.04em;
-  text-transform: uppercase;
 }
 
 .connect-subtitle{
