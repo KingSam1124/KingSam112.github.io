@@ -828,14 +828,13 @@ section:last-of-type {
 .connect-strip{
   background: #0b1220;
   margin: 0;
-  padding: 0;
+  padding: 24px 0;              /* 🔑 THIS is the missing piece */
 }
 
 .connect-strip-inner{
   display: flex;
-  align-items: center;
+  align-items: center;          /* vertical centering */
   justify-content: space-between;
-  min-height: 74px;
   gap: 24px;
 }
 
