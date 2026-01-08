@@ -826,28 +826,42 @@ section:last-of-type {
 /* ===== CONNECT STRIP ===== */
 
 .connect-strip{
-  border-top: 1px solid var(--line);
+  background: #0b1220;          /* black / near-black */
   padding: 28px 0;
-  margin-top: 48px;
+  margin-top: 56px;
 }
 
 .connect-strip-inner{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; /* text left, button right */
   gap: 24px;
 }
 
 /* Text */
 .connect-text{
   margin: 0;
+  color: #ffffff;
   font-size: 1.05rem;
-  color: #374151;
+  line-height: 1.5;
 }
 
-/* Button uses your existing .btn styles */
-.connect-strip .btn{
+/* Button: white background, black text */
+.connect-btn{
+  background: #ffffff;
+  color: #0b1220;
+  border: 1px solid #ffffff;
+  padding: 12px 22px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
   white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.connect-btn:hover{
+  background: #f3f4f6;
+  transform: translateY(-1px);
 }
 
 /* Mobile */
@@ -857,8 +871,7 @@ section:last-of-type {
     align-items: flex-start;
   }
 
-  .connect-strip .btn{
-    margin-top: 8px;
+  .connect-btn{
+    margin-top: 12px;
   }
 }
-
