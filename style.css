@@ -836,15 +836,12 @@ section:last-of-type {
   justify-content: space-between;
   height: 110px;                /* 👈 controls strip height */
   gap: 24px;
+  transform: translateY(-1px); /* optical correction */
 }
 
 .connect-text{
   margin: 0;
   line-height: 1.15;   /* tighter line box */
-}
-
-.connect-strip-inner{
-  transform: translateY(-1px); /* optical correction */
 }
 
 /* ===== CONNECT BUTTON — MATCH GLOBAL BUTTON STYLE ===== */
