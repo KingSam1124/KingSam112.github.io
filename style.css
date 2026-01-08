@@ -826,9 +826,13 @@ section:last-of-type {
 /* ===== CONNECT STRIP ===== */
 
 .connect-strip{
-  background: #0b1220;          /* black / near-black */
-  padding: 28px 0;
-  margin-top: 56px;
+  background: #0b1220 !important;         
+  padding: 22px 0;
+  margin-top: 0;
+}
+
+.connect-strip .container{
+  background: transparent;
 }
 
 .connect-strip-inner{
